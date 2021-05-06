@@ -9,6 +9,8 @@ layout: none
 
 
         #planet {
+            position: fixed;
+
             background-image:url('assets/planet.jpg');
             background-position-x: center;
             background-position-y: 0px;
@@ -18,15 +20,28 @@ layout: none
             height: 100%;
 
             margin: 0 auto;   
+            margin-top: 60px;
+            /* z-index: -1; */
         }
 
         #content {
-            position: relative;
+            /* position: relative; */
+            
             width: 220px;
             margin-top: 590px;
             margin-left: auto;
             margin-right: auto;
+            /* margin-bottom: 0px; */
+
+            /* z-index: 10; */
+
+             
         }
+        @media only screen and (max-width: 600px) {
+            #content {
+                margin-top: 20px;
+            }
+        } 
 
         #content li {
             list-style: none;
