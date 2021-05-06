@@ -20,7 +20,7 @@ layout: none
             height: 100%;
 
             margin: 0 auto;   
-            margin-top: 60px;
+            margin-top: 10px;
             /* z-index: -1; */
         }
 
@@ -39,7 +39,7 @@ layout: none
         }
         @media only screen and (max-width: 600px) {
             #content {
-                margin-top: 20px;
+                margin-top: 30px;
             }
         } 
 
@@ -69,7 +69,6 @@ layout: none
 
 
     <body>
-    {%- include header.html -%}
 
     <div id="planet">
         <div id="content">
@@ -80,6 +79,10 @@ layout: none
             </main>
         </div>
     </div>
+
+    {%- include header.html -%}
+
+    
 
     {%- include footer.html -%}
 
