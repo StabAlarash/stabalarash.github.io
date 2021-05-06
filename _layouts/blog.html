@@ -21,8 +21,8 @@ layout: default
             {{ post.title | escape }}
           </a>
         </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
+        {%- if post.summary -%}
+          {{ post.summary }}
         {%- endif -%}
       </li>
       {%- endfor -%}
