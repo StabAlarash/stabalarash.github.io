@@ -42,6 +42,8 @@ plugins:
   - jekyll-feed
   - jekyll-mermaid
 
+# Permalinks
+permalink: /:year/:month/:day/:title.html
 
 
 # Exclude from processing.

@@ -6,6 +6,7 @@ category:
 author: 
 tags: []
 summary: keep updating stuff...
+image: post_planet.jpg
 ---
 I just moved everything from docs/ to root, and also everything to the main branch.
 
