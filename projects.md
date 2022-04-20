@@ -3,7 +3,6 @@ layout: page
 title: Projects
 permalink: /projects/
 ---
-Here's a list of my projects:
 
 <div class ="image-gallery">
   {% for project in site.projects %}
